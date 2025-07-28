@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test":  "jest",
     "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "build": "webpack",
     "start": "webpack serve"
   },
